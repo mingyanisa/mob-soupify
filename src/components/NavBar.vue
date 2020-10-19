@@ -1,19 +1,16 @@
 <template>
-  <v-app>
-    <NavBar />
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <v-app-bar app color="primary white--text text-h6 font-weight-bold">
+    Mob Soupify
+  </v-app-bar>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import NavBar from "@/components/NavBar.vue";
+import { VAppBar } from "vuetify/lib";
 
 @Component({
   components: {
-    NavBar,
+    VAppBar,
   },
 })
 export default class extends Vue {}

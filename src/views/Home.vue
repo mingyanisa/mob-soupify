@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <client-only>
+    <l-map :center="[13.747242, 100.529165]" :zoom="14">
+      <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+    </l-map>
+  </client-only>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import { Component, Vue } from "vue-property-decorator";
+import { LMap, LTileLayer, LMarker } from "vue2-leaflet";
 
-export default {
-  name: "Home",
+@Component({
   components: {
-    HelloWorld
-  }
-};
+    LMap,
+    LTileLayer,
+    LMarker,
+  },
+})
+export default class extends Vue {}
 </script>
