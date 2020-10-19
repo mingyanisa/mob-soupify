@@ -1,17 +1,33 @@
 <template>
-  <v-app-bar app color="primary white--text text-h6 font-weight-bold">
-    Mob Soupify
-  </v-app-bar>
+  <div>
+    <v-app-bar
+      app
+      clipped-left
+      color="primary white--text text-h6 font-weight-bold"
+    >
+      <v-app-bar-nav-icon color="white" @click="toggleDrawer" />
+      <v-toolbar-title>
+        Mob Soupify
+      </v-toolbar-title>
+    </v-app-bar>
+  </div>
 </template>
 
 <script lang="ts">
+import { vxm } from "@/store";
 import { Component, Vue } from "vue-property-decorator";
-import { VAppBar } from "vuetify/lib";
+import { VAppBar, VAppBarNavIcon, VToolbarTitle } from "vuetify/lib";
 
 @Component({
   components: {
     VAppBar,
+    VAppBarNavIcon,
+    VToolbarTitle,
   },
 })
-export default class extends Vue {}
+export default class extends Vue {
+  private toggleDrawer() {
+    vxm.drawer.toggleDrawerState();
+  }
+}
 </script>

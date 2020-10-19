@@ -1,9 +1,7 @@
 <template>
-  <client-only>
-    <l-map :center="[13.747242, 100.529165]" :zoom="14">
-      <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
-    </l-map>
-  </client-only>
+  <l-map :center="[13.747242, 100.529165]" :zoom="14">
+    <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+  </l-map>
 </template>
 
 <script>
