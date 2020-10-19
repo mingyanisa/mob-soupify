@@ -1,76 +1,112 @@
 {
     "places": [
-        { 
-            "name":"Democracy Monument",
-            "location":[13.756934, 100.502126],
-            "start":"13/10/2020 16.00",
-            "stop": "13/10/2020 17.00"
+        {
+            "name": "Democracy Monument",
+            "location": [
+                13.756934,
+                100.502126
+            ],
+            "start": "2020-10-13T09:00:00.000Z",
+            "stop": "2020-10-13T10:00:00.000Z"
         },
         {
-            "name":"Democracy Monument",
-            "location":[13.756934, 100.502126],
-            "start":"14/10/2020 12.00",
-            "stop": "14/10/2020 20.00"
+            "name": "Democracy Monument",
+            "location": [
+                13.756934,
+                100.502126
+            ],
+            "start": "2020-10-14T05:00:00.000Z",
+            "stop": "2020-10-14T13:00:00.000Z"
         },
-        { 
-            "name":"Central World",
-            "location":[13.746944, 100.539719],
-            "start":"15/10/2020 17:00",
-            "stop": "15/10/2020 21.00"
+        {
+            "name": "Central World",
+            "location": [
+                13.746944,
+                100.539719
+            ],
+            "start": "2020-10-15T10:00:00.000Z",
+            "stop": "2020-10-15T14:00:00.000Z"
         },
-        { 
-            "name":"Pathum Wan Intersection",
-            "location":[13.746225, 100.530785],
-            "start":"16/10/2020 17:00",
-            "stop": "16/10/2020 21.00"
+        {
+            "name": "Pathum Wan Intersection",
+            "location": [
+                13.746225,
+                100.530785
+            ],
+            "start": "2020-10-16T10:00:00.000Z",
+            "stop": "2020-10-16T14:00:00.000Z"
         },
-        { 
-            "name":"Lat Phrao Interchange",
-            "location":[13.812442, 100.559487],
-            "start":"17/10/2020 17:00",
-            "stop": "17/10/2020 20.00"
+        {
+            "name": "Lat Phrao Interchange",
+            "location": [
+                13.812442,
+                100.559487
+            ],
+            "start": "2020-10-17T10:00:00.000Z",
+            "stop": "2020-10-17T13:00:00.000Z"
         },
-        { 
-            "name":"BTS Udom Suk",
-            "location":[13.720973, 100.495323],
-            "start":"17/10/2020 17:00",
-            "stop": "17/10/2020 20.00"
+        {
+            "name": "BTS Udom Suk",
+            "location": [
+                13.720973,
+                100.495323
+            ],
+            "start": "2020-10-17T10:00:00.000Z",
+            "stop": "2020-10-17T13:00:00.000Z"
         },
-        { 
-            "name":"BTS Wongwian Yai",
-            "location":[13.720968, 100.495320],
-            "start":"17/10/2020 17:00",
-            "stop": "17/10/2020 20.00"
+        {
+            "name": "BTS Wongwian Yai",
+            "location": [
+                13.720968,
+                100.495320
+            ],
+            "start": "2020-10-17T10:00:00.000Z",
+            "stop": "2020-10-17T13:00:00.000Z"
         },
-        { 
-            "name":"Victory Monument",
-            "location":[13.764971, 100.538370],
-            "start":"18/10/2020 15:00",
-            "stop": "18/10/2020 20.00"
+        {
+            "name": "Victory Monument",
+            "location": [
+                13.764971,
+                100.538370
+            ],
+            "start": "2020-10-18T08:00:00.000Z",
+            "stop": "2020-10-18T13:00:00.000Z"
         },
-        { 
-            "name":"Asok Montri Intersection",
-            "location":[13.736591, 100.561835],
-            "start":"18/10/2020 16:00",
-            "stop": "18/10/2020 20:00"
+        {
+            "name": "Asok Montri Intersection",
+            "location": [
+                13.736591,
+                100.561835
+            ],
+            "start": "2020-10-18T09:00:00.000Z",
+            "stop": "2020-10-18T13:00:00.000Z"
         },
-        { 
-            "name":"Bangkok Remand Prison",
-            "location":[13.850949, 100.551613],
-            "start":"19/10/2020 17.00",
-            "stop": "19/10/2020 20:00"
+        {
+            "name": "Bangkok Remand Prison",
+            "location": [
+                13.850949,
+                100.551613
+            ],
+            "start": "2020-10-19T10:00:00.000Z",
+            "stop": "2020-10-19T13:00:00.000Z"
         },
-        { 
-            "name":"Kaset Intersection",
-            "location":[13.839837, 100.575903],
-            "start":"19/10/2020 17.00",
-            "stop": "19/10/2020 20:00"
+        {
+            "name": "Kaset Intersection",
+            "location": [
+                13.839837,
+                100.575903
+            ],
+            "start": "2020-10-19T10:00:00.000Z",
+            "stop": "2020-10-19T13:00:00.000Z"
         },
-        { 
-            "name":"Ministry of Public Health MRT",
-            "location":[13.848341, 100.514693],
-            "start":"19/10/2020 17.00",
-            "stop": "19/10/2020 20:00"
+        {
+            "name": "Ministry of Public Health MRT",
+            "location": [
+                13.848341,
+                100.514693
+            ],
+            "start": "2020-10-19T10:00:00.000Z",
+            "stop": "2020-10-19T13:00:00.000Z"
         }
     ]
 }
