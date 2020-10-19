@@ -79,6 +79,36 @@
             "name":"BTS Udomsuk",
             "location":[13.679917, 100.609488],
             "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Asok",
+            "location":[13.737021, 100.560370],
+            "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Bangna",
+            "location":[13.668132, 100.604711],
+            "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Chongnonsi",
+            "location":[13.723737, 100.529308],
+            "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Surasak",
+            "location":[13.719350, 100.521532],
+            "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Wongwian Yai",
+            "location":[13.721139, 100.495496],
+            "date": "18/10/2020"
+        },
+        {
+            "name":"BTS Krung Thon Buri",
+            "location":[13.720757, 100.502886],
+            "date": "18/10/2020"
         }
     ],
     "MRT":[
