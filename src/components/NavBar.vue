@@ -7,7 +7,7 @@
     >
       <v-app-bar-nav-icon color="white" @click="toggleDrawer" />
       <v-toolbar-title>
-        Mob Soupify
+        เยาวชนต้มแกง
       </v-toolbar-title>
     </v-app-bar>
   </div>
